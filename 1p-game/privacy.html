@@ -7,26 +7,37 @@
 <meta name="description" content="How 1P Game handles your information. Short version: it doesn't collect any.">
 <link rel="icon" href="/assets/mark.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css">
+<link rel="canonical" href="https://funfinch.com/1p-game/privacy.html">
+<link rel="alternate" hreflang="en" href="https://funfinch.com/1p-game/privacy.html">
+<link rel="alternate" hreflang="fr" href="https://funfinch.com/fr/1p-game/privacy.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://funfinch.com/zh-Hans/1p-game/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://funfinch.com/1p-game/privacy.html">
 </head>
 <body>
 
 <nav class="site-nav">
   <div class="wrap wrap--wide">
-    <a class="brand" href="/">
-      <img src="/assets/mark.svg" alt="">
-      Funfinch
+    <a class="brand-stack" href="/">
+      <span class="brand-parent"><img src="/assets/mark.svg" alt="">Funfinch</span>
+      <span class="crumb">1P Game</span>
     </a>
     <div class="nav-links">
+      <a href="/1p-game/">Product</a>
       <a href="/1p-game/support.html">Support</a>
-      <a href="/1p-game/privacy.html">Privacy</a>
+      <span class="lang-switch">
+        <a href="/1p-game/privacy.html" hreflang="en" aria-current="page">EN</a>
+        <a href="/fr/1p-game/privacy.html" hreflang="fr" lang="fr">FR</a>
+        <a href="/zh-Hans/1p-game/privacy.html" hreflang="zh-Hans" lang="zh-Hans">中文</a>
+      </span>
     </div>
   </div>
 </nav>
 
 <main class="legal">
 
+  <p class="eyebrow">1P Game</p>
   <h1>Privacy Policy</h1>
-  <p class="meta">1P Game &middot; Last updated 31 October 2026</p>
+  <p class="meta">Last updated 1 November 2026</p>
 
   <div class="callout">
     <p>
@@ -36,10 +47,16 @@
     </p>
   </div>
 
+  <p class="authority-note">
+    This policy is published in English, French and Simplified Chinese. The English text is the
+    authoritative version; translations are provided for convenience, and if a translation differs
+    from the English text, the English text governs.
+  </p>
+
   <p>
-    This policy covers the 1P Game application for iPhone and iPad, published by
-    Funfinch ("we", "us"). It explains what the app does with information, and what
-    it deliberately does not do.
+    This policy covers the 1P Game application for iPhone and iPad. 1P Game is published by
+    Funfinch, an independent developer based in Shanghai, China ("we", "us"). It explains
+    what the app does with information, and what it deliberately does not do.
   </p>
 
   <h2>1. Information we collect</h2>
@@ -53,7 +70,8 @@
   </ul>
   <p>
     Because no personal data is collected, there is no personal data for us to sell,
-    rent, share or disclose to third parties.
+    rent, share or disclose to third parties. For the same reason, no personal data is
+    transferred across borders on our side.
   </p>
 
   <h2>2. Information stored on your device</h2>
@@ -91,7 +109,25 @@
     The app is fully playable offline.
   </p>
   <p>
-    Network access is used only by Apple's StoreKit when you make or restore a purchase.
+    Network access happens in exactly two cases, both of them requests to Apple:
+  </p>
+  <ul>
+    <li>
+      <strong>Purchases.</strong> Apple's StoreKit contacts the App Store when you buy,
+      restore or renew a subscription, and when the app checks which content you have
+      unlocked.
+    </li>
+    <li>
+      <strong>Version check.</strong> When the app launches it asks Apple's public lookup
+      service at <code>itunes.apple.com</code> whether a newer version of 1P Game exists,
+      so it can let you know about an update. That request carries only the app's bundle
+      identifier and your App Store region code — no name, email, account or advertising
+      identifier.
+    </li>
+  </ul>
+  <p>
+    As with any request to any server, Apple can see the IP address the request comes from.
+    That is how the internet works; we never receive, log or store it.
   </p>
 
   <h2>5. Third-party software</h2>
@@ -140,14 +176,19 @@
     Questions about this policy or about privacy in 1P Game:<br>
     <a href="mailto:support@funfinch.com">support@funfinch.com</a>
   </p>
-  <p>Funfinch &middot; Shanghai, China</p>
+  <p>Funfinch (independent developer) &middot; Shanghai, China</p>
 
 </main>
 
 <footer>
   <div class="wrap wrap--wide">
     <span>&copy; 2026 Funfinch</span>
-    <a href="mailto:support@funfinch.com">support@funfinch.com</a>
+    <nav class="foot-links">
+      <a href="/#products">Products</a>
+      <a href="/1p-game/">1P Game</a>
+      <a href="/1p-game/support.html">Support</a>
+      <a href="mailto:support@funfinch.com">support@funfinch.com</a>
+    </nav>
   </div>
 </footer>
 
