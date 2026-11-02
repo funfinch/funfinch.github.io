@@ -156,6 +156,7 @@ h1 {
   font-size: 18px;
   color: var(--muted);
 }
+.lede + .lede { margin-top: 16px; }
 
 /* ---------- product grid ---------- */
 
